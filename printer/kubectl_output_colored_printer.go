@@ -108,6 +108,9 @@ func ColorStatus(status string) (color.Color, bool) {
 	case
 		"Completed":
 		return color.Blue, true
+	case
+		"Running":
+		return color.Green, true
 	}
 	// some ok status, not colored:
 	// "Pulled",
