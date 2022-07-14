@@ -41,6 +41,7 @@ brews:
   homepage: "https://github.com/smiller171/kubecolor"
   description: "Colorize your kubectl output"
   folder: Formula
+  skip_upload: auto
   install: |
     bin.install "kubecolor"
 
