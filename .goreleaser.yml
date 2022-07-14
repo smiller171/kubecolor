@@ -3,7 +3,6 @@ release:
 before:
   hooks:
     - go mod tidy
-    - make testshort
 
 builds:
 - id: kubecolor
@@ -37,9 +36,9 @@ archives:
 brews:
 - name: kubecolor
   tap:
-    owner: dty1er
+    owner: smiller171
     name: homebrew-tap
-  homepage: "https://github.com/dty1er/kubecolor"
+  homepage: "https://github.com/smiller171/kubecolor"
   description: "Colorize your kubectl output"
   folder: Formula
   install: |
