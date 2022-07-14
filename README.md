@@ -1,8 +1,8 @@
 # kubecolor
 
-![test](https://github.com/hidetatz/kubecolor/workflows/test/badge.svg?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hidetatz/kubecolor)](https://goreportcard.com/report/github.com/hidetatz/kubecolor)
-[![codecov](https://codecov.io/gh/hidetatz/kubecolor/branch/main/graph/badge.svg?token=k6ysAa5ghD)](https://codecov.io/gh/hidetatz/kubecolor/)
+![test](https://github.com/smiller171/kubecolor/workflows/test/badge.svg?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/smiller171/kubecolor)](https://goreportcard.com/report/github.com/smiller171/kubecolor)
+[![codecov](https://codecov.io/gh/smiller171/kubecolor/branch/main/graph/badge.svg?token=k6ysAa5ghD)](https://codecov.io/gh/smiller171/kubecolor/)
 
 Colorize your kubectl output
 
@@ -50,12 +50,12 @@ Additionally, if `kubectl` resulted an error, kubecolor just shows the error mes
 
 ### Download binary via GitHub release
 
-Go to [Release page](https://github.com/hidetatz/kubecolor/releases) then download the binary which fits your environment.
+Go to [Release page](https://github.com/smiller171/kubecolor/releases) then download the binary which fits your environment.
 
 ### Mac and Linux users via Homebrew
 
 ```sh
-brew install hidetatz/tap/kubecolor
+brew install smiller171/tap/kubecolor
 ```
 
 ### Manually via go command
@@ -63,13 +63,13 @@ brew install hidetatz/tap/kubecolor
 *Note: if you install kubecolor via go command, --kubecolor-version  might not work*
 
 ```sh
-go install github.com/hidetatz/kubecolor/cmd/kubecolor@latest
+go install github.com/smiller171/kubecolor/cmd/kubecolor@latest
 ```
 
 If you are not using module mode (or if just above doesn't work), try below:
 
 ```sh
-go get -u github.com/hidetatz/kubecolor/cmd/kubecolor
+go get -u github.com/smiller171/kubecolor/cmd/kubecolor
 ```
 
 ## Usage
@@ -213,4 +213,4 @@ MIT
 
 ## Author
 
-[@hidetatz](https://github.com/hidetatz)
+[@smiller171](https://github.com/smiller171)
