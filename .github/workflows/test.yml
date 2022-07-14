@@ -16,12 +16,10 @@ jobs:
         - windows-latest
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: setup go
-      uses: actions/setup-go@v2
+      uses: actions/setup-go@v3
     - name: test
       run: make coverage
     - name: upload coverage
-      uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
+      uses: codecov/codecov-action@v3
